@@ -1,0 +1,55 @@
+@import "../../common";
+@import "./Pane";
+
+.searegion-info-pane {
+	.pane--header {
+		background-color: #00c9ff;
+	}
+
+	.section-image {
+		img {
+			width: 100%;
+		}
+	}
+
+	.originnode {
+		font-size: 0.9rem;
+		color: $color-text;
+		margin: 1.5rem 0 1rem;
+
+		dt {
+			font-weight: bold;
+		}
+		dd b {
+			font-weight: normal;
+		}
+		.icon {
+			float: left;
+			margin-top: -3px;
+			margin-right: 2px;
+		}
+	}
+
+	p.originnode--button {
+		margin: 0.5rem 0;
+		button {
+			background-color: darken(#1976D2,10%);
+
+			&:hover {
+				//color: #1976D2;
+				//border-color: transparentize(#1976D2, 0.6);
+			}
+			&:hover {
+				background-color: #1976D2;
+			}
+
+			&:focus {
+				background-color: darken(#1976D2,10%);
+			}
+
+			&:active {
+				background-color: lighten(#1976D2,10%);
+			}
+		}
+	}
+}

@@ -1,0 +1,61 @@
+
+@import "../../common";
+
+#extra-links-unit {
+
+		margin-bottom: $menu-padding * 2;
+		padding: 0 $menu-padding;
+		display: flex;
+
+	.button {
+		border: 1px solid rgba(255,255,255,0.2);
+		margin: 0;
+		display: inline-block;
+		padding: $menu-padding/2 $menu-padding;
+		font-size: 1rem;
+		font-weight: normal;
+		color: rgba(255,255,255,0.6);
+		text-decoration: none;
+		flex: 1;
+		white-space: nowrap;
+
+		&:hover {
+			background: $color-primary-700;
+			color: #FFF;
+			i {
+				opacity: 1;
+			}
+			&:hover {
+				border-color: #FFF !important;
+			}
+		}
+
+		&:first-child {
+			border-top-left-radius: 3px;
+			border-bottom-left-radius: 3px;
+		}
+		&:last-child {
+			border-left: 1px solid rgba(255,255,255,0);
+			margin-left: -1px;
+			border-top-right-radius: 3px;
+			border-bottom-right-radius: 3px;
+		}
+
+		i {
+			background-size: 16px 16px;
+			display: inline-block;
+			width: 16px;
+			height: 16px;
+			margin-right: 0.75rem;
+			margin-bottom: -3px;
+			opacity: 0.8;
+		}
+		&.horsecalculator i {
+			background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAB+klEQVRYheXWvWsUURQF8N+GaCDxAzUGYkBQIvgNoqjNVhrBQsVCtE2jiPoXCBbGUkFs7IKdYGdho40oihHRQuwMWAnaiEEQFHMtZkY3m53s7M5slQPDDO/d+855M++euSx31CKi1xx78D5vsq+HxMN4i1NYhf5WQS0HK8BOPMYY5jGIq1ULWIEtGEnX+Y6PKdmMZNeB/XiWPpcWsBYXcQS7MNo0/w1/UnKopfffeQt2IuA6LmH9EjHrcsaHywg4gfsYKhCbh915E+2qYDvOSQ7UXAkBB3G+5UxEtLvWRMTtiPgZ5bGxef125PWI+FIBcYbpTgRMVkicYT4iRht58s7ABUyX+OZ5qOHKgoFY/C84gwc9IM/wWeKQWFwFe3tMDpsk/4eWAp70mDzDZCsBdyS+/kJip93iR4GYCakJZgK2ptcBvPbfwzvBPPZhR4HYQdzFvzIcSe+HS5TYtYbymiiYU2+s+6G0TrvBXESsjIU+cigiZtvk3Ws8Aze7fPXwDr+axmawDZfxMidvdaZ2tMudZ3gYS1u6iHjUIu9G9gbOdrnzDAMFYqYs7Iqe4lbWD5wsKWC8QMwrSRd1DG8k5a4WERvwVfkOeRyznSb1Sey3ivb8eDdJfdhcATkN/t6pgLG2UcVwFPVOk/rxCR8qEDCA03hewVrLCH8BFPz4IimGi/oAAAAASUVORK5CYII=");
+			margin-right: 0.5rem;
+		}
+		&.tradingtools i {
+			background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAlUlEQVRYhe2VQQqAMAwEt37PB/qSvi9eGlExTUWb7aELe0phBgpJEhFUspZ2y8KE1wRC4JZAGPxJIBR+FwiHnwUocBWgwQEgibMIfshWG9b2QEiGEEid6wpQM4SAGNVY89Z3rgA1U2AKTIEpwBbITIGsAt4ZbT23b85xLqV8wQFnCFzgKuCd26814SoQkUd4lIAJB4AdzNFDGhmVhxcAAAAASUVORK5CYII=");
+		}
+	}
+}

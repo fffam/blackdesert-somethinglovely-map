@@ -1,0 +1,65 @@
+$menu-button-layer-width                     : 24px !default;
+$menu-button-layer-height                    : 3px !default;
+$menu-button-layer-spacing                   : 4px !default;
+$menu-button-layer-color                     : #FFF !default;
+$menu-button-layer-border-radius             : 4px !default;
+$menu-button-hover-opacity                   : 0.7 !default;
+
+.menu-button {
+	padding: 0;
+	display: inline-block;
+	cursor: pointer;
+
+	// Normalize
+	font: inherit;
+	color: inherit;
+	text-transform: none;
+	background-color: transparent;
+	border: none;
+	margin: 0;
+	overflow: visible;
+
+	&:hover {
+		opacity: 0.7;
+	}
+}
+
+.menu-button-box {
+	width: $menu-button-layer-width;
+	height: $menu-button-layer-height * 3 + $menu-button-layer-spacing * 2;
+	display: inline-block;
+	position: relative;
+}
+
+.menu-button-inner {
+	display: block;
+	top: 50%;
+	margin-top: $menu-button-layer-height / -2;
+
+	&,
+	&::before,
+	&::after {
+		width: $menu-button-layer-width;
+		height: $menu-button-layer-height;
+		background-color: $menu-button-layer-color;
+		border-radius: $menu-button-layer-border-radius;
+		position: absolute;
+		transition-property: transform;
+		transition-duration: 0.15s;
+		transition-timing-function: ease;
+	}
+
+	&::before,
+	&::after {
+		content: "";
+		display: block;
+	}
+
+	&::before {
+		top: ($menu-button-layer-spacing + $menu-button-layer-height) * -1;
+	}
+
+	&::after {
+		bottom: ($menu-button-layer-spacing + $menu-button-layer-height) * -1;
+	}
+}

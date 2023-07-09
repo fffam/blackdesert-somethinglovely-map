@@ -1,0 +1,485 @@
+@import "../common";
+@import "../MapIcons";
+@import "../vendor/leaflet.rrose.css";
+
+circle {
+	stroke: none;
+	fill: #1E88E5;
+}
+
+.leaflet-interactive {
+	pointer-events: auto;
+}
+
+.leaflet-right {
+	//right: 26rem !important;
+}
+
+@mixin map-icon($name, $width:36px, $height:47px, $shape:'circle', $offsety:8px) {
+	.icon {
+		width: $width;
+		height: $height;
+		background-size: $width $height;
+		margin-top: -$height + 6px + $offsety;
+		margin-left: -$width/2  + 6;
+	}
+
+	&.Bank,&.Forest,&.Mushrooms,&.Mine,&.Fishing,&.Farm,&.Specialties {
+		h3 {
+			display: none !important;
+		}
+	}
+
+	&:hover h3 {
+		//display: block !important;
+	}
+
+	.z1 &,.z2 &,.z3 &,.z4 & {
+		h3 {
+			@if $name == 'City' {
+				display: block;
+			} @else {
+				display: none;
+			}
+		}
+
+		.icon {
+			width: $width*0.5;
+			height: $height*0.5;
+			background-size: $width*0.5 $height*0.5;
+			margin-top: -$height*0.5 + 6px + ($offsety*0.5);
+			margin-left: -($width*0.5)/2 + 6;
+		}
+	}
+	.z5 & {
+		.icon {
+			width: $width*0.75;
+			height: $height*0.75;
+			background-size: $width*0.75 $height*0.75;
+			margin-top: -$height*0.75 + 6px + ($offsety*0.75);
+			margin-left: -($width*0.75)/2 + 6;
+		}
+	}
+}
+
+#map {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.leaflet-container {
+	background: #222;
+	border: none;
+}
+
+.leaflet-marker-icon {
+
+	// If the marker is part of node network, don't show it grayscale
+	&.marker--nodeplanner-unselected {
+		.icon {
+			filter: grayscale(100%);
+		}
+	}
+	&.marker--nodeplanner-selected {
+		.icon {
+			filter: grayscale(0);
+		}
+		.contrib {
+			background: #ffe605;
+		}
+	}
+
+	// Text label
+	&.label {
+
+		pointer-events: none;
+
+		span {
+			margin-left: -5rem;
+			width: 10rem;
+			text-align: center;
+			display: block;
+			font-weight: bold;
+			color: #FFF;
+			font-size: 1.25rem;
+			text-shadow: rgba(0,0,0,1) 0 0 2px,rgba(0,0,0,1) 0 0 2px,rgba(0,0,0,1) 0 0 2px,rgba(0,0,0,1) 0 0 2px;
+		}
+
+		&.label-for-data-layer-feaure {
+			span {
+				font-size: 0.7rem;
+				line-height: 1.3;
+				font-weight: normal;
+
+				.z5 &,.z6 &,.z7 & {
+					font-size: 1.1rem;
+				}
+			}
+		}
+
+		&.label-on-data-layer-searegions {
+			span {
+				pointer-events: none;
+				margin-left: -7.5rem;
+				width: 15rem;
+				text-shadow: none;
+				opacity:0.85;
+				color: #E3F2FD;
+				font-size: 1rem;
+				.z5 &,.z6 &,.z7 & {
+					font-size: 1.5rem;
+				}
+			}
+		}
+
+		&.label-next-area {
+			span {
+				color: $color-primary;
+				margin-left: -5rem;
+				width: 10rem;
+				font-size: 0.8rem;
+
+				.z5 &,.z6 &,.z7 & {
+					margin-left: -10rem;
+					width: 20rem;
+					font-size: 1.3rem;
+				}
+			}
+		}
+
+	}
+
+	h3 {
+		@include font-normal;
+		margin: 0;
+		padding: 0;
+		margin-left: -4rem;
+		text-align: center;
+		font-size: 0.9rem;
+		line-height: 1rem;
+		width: 9rem;
+		color: #FFF;
+		text-shadow: rgba(0,0,0,1) 0 0 3px,rgba(0,0,0,1) 0 0 3px,rgba(0,0,0,1) 0 0 3px,rgba(0,0,0,1) 0 0 3px;
+	}
+	.contrib {
+		text-align: center;
+		color: #000;
+		background: #FFF;
+		width: 16px;
+		height: 16px;
+		text-overflow: clip;
+		display: block;
+		position: absolute;
+		top: -6px;
+		left: -6px;
+		border-radius: 16px;
+		font-size: 0.7rem;
+		font-weight: bold;
+		font-style: normal;
+		border: 2px solid rgba(0,0,0,0.9);
+		padding-bottom: 4px;
+		box-shadow: rgba(0,0,0,0.2) 0 1px 2px;
+	}
+	.detail {
+		color: #FFF;
+		width: 7rem;
+		margin-left: -3.5rem;
+		font-size: 0.8rem;
+		text-align: left;
+		text-shadow: rgba(0,0,0,1) 0 0 2px,rgba(0,0,0,1) 0 0 2px,rgba(0,0,0,1) 0 0 2px,rgba(0,0,0,1) 0 0 2px;
+
+		b {
+			display: block;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			overflow: hidden;
+
+			.secondary {
+				font-weight: 400;
+			}
+		}
+		img {
+			width: 16px;
+			height: 16px;
+			margin-right: 4px;
+			margin-bottom: -5px;
+			background: #222;
+			border: 1px solid #000;
+		}
+	}
+
+	// Hide contribution when zoomed out far
+	.z1 &,.z2 &,.z3 &,.z3 & {
+		&:hover {
+			i.contrib {
+				display: block;
+			}
+		}
+		i.contrib {
+			display: none;
+		}
+		.detail {
+			display: none;
+		}
+	}
+
+	// Hide titles when zoomed out
+	.z1 &,.z2 &,.z3 &,.z4 & {
+		h3 {
+			display: none;
+		}
+	}
+
+	&.City {
+		@include map-icon('City', 42px, 53px, 'square');
+		h3 {
+			font-size: 1.1rem;
+		}
+		.icon {
+			@include map-icon-city();
+		}
+	}
+	&.Town {
+		@include map-icon('Town', 42px, 53px, 'square');
+		.icon {
+			@include map-icon-town();
+		}
+	}
+	&.Gateway {
+		@include map-icon('Gateway', 36px, 47px, 'square');
+		.icon {
+			@include map-icon-gateway();
+		}
+	}
+	&.Trading-Post {
+		@include map-icon('Trading-Post', 42px, 53px);
+		.icon {
+			@include map-icon-trading-post();
+		}
+	}
+	&.Connection {
+		@include map-icon('Connection', 42px, 43px);
+		.icon {
+			@include map-icon-connection();
+		}
+	}
+	&.Dangerous {
+		@include map-icon('Dangerous', 45px, 50px, 'triangle');
+		.icon {
+			@include map-icon-dangerous();
+		}
+	}
+	&.Bank {
+		@include map-icon('Bank');
+		color: #F0AF00;
+		.icon {
+			@include map-icon-bank();
+		}
+	}
+	&.Forest {
+		@include map-icon('Forest');
+		color: #81C784;
+		.icon {
+			@include map-icon-forest();
+		}
+	}
+	&.Mushrooms {
+		@include map-icon('Mushrooms');
+		color: #CE93D8;
+		.icon {
+			@include map-icon-mushrooms();
+		}
+	}
+	&.Mine {
+		@include map-icon('Mine');
+		color: #90A4AE;
+		.icon {
+			@include map-icon-mine();
+		}
+	}
+	&.Fishing {
+		@include map-icon('Fishing');
+		color: #4FC3F7;
+		.icon {
+			@include map-icon-fishing();
+		}
+	}
+	&.Farm {
+		@include map-icon('Farm');
+		color: #FFF176;
+		.icon {
+			@include map-icon-farm();
+		}
+	}
+	&.Specialty {
+		@include map-icon('Specialty');
+		color: #4CAF50;
+		.icon {
+			@include map-icon-specialty();
+		}
+	}
+
+	&.marker-trader, &.marker-trader-imperial, &.marker-trader-smuggler {
+		.icon {
+			width: 17px;
+			height: 17px;
+			margin-left: -8px;
+			margin-top: -8px;
+
+			.z1 &,.z2 &,.z3 &,.z4 & {
+				display: none;
+			}
+		}
+	}
+	&.marker-trader .icon {
+		@include map-icon-trader;
+	}
+	&.marker-trader-imperial .icon {
+		@include map-icon-trader-yellow;
+	}
+	&.marker-trader-smuggler .icon {
+		@include map-icon-trader-red;
+	}
+
+	&.marker-npc {
+		.icon {
+			@include map-icon-tiny-person;
+
+			width: 14px;
+			height: 14px;
+			margin-left: -7px;
+			margin-top: -7px;
+
+			.z1 &,.z2 &,.z3 &,.z4 & {
+				display: none;
+			}
+		}
+	}
+
+}
+
+#currentLatLng {
+	background: rgba(0,0,0,0.7);
+	color: #FFF;
+	font-size: 0.8rem;
+	padding: 0.25rem 0.5rem;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: 400;
+
+	transition: background-color 300ms ease-in;
+	cursor: pointer;
+	&.copied {
+		transition: background-color 0ms ease-in;
+		background-color: rgb(43, 198, 101);
+	}
+}
+
+.leaflet-rrose {
+	pointer-events: none;
+
+	.leaflet-rrose-content {
+		min-width: 12rem;
+		background: #FFF;
+		margin: 0;
+		padding: 0;
+	}
+
+	.leaflet-rrose-content-wrapper {
+		border-radius: none;
+		box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.5);
+	}
+
+	.leaflet-rrose-content-wrapper,
+	.leaflet-rrose-tip {
+		background: #FFF;
+		box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.5);
+	}
+
+	.header {
+		padding: 0.5rem 1rem;
+		h2 { margin: 0; font-size: 1rem; line-height: 1.2rem; }
+		h3 { margin: 0; font-size: 0.9rem; color: $color-text-2; }
+		.cp {
+			line-height: 1.2rem;
+			color: #888;
+			float: right;
+			margin: 0 0 0 0.5rem;
+			b {
+				color: #555;
+			}
+		}
+	}
+	.body {
+		padding: 0.5rem 1rem;
+		background: $color-grey-100;
+		p { margin: 0; font-size: 0.9rem; }
+		ul, li {
+			margin: 0;
+			padding: 0;
+			display: block;
+		}
+		h5 {
+			font-weight: normal;
+			color: $color-text-2;
+			margin: 0.25rem 0 0.5rem;
+		}
+		ul {
+			font-size: 0.8rem;
+			li {
+				img {
+					width: 16px;
+					margin: 0 0.25rem -4px 0;
+				}
+				b {
+					font-weight: normal;
+				}
+				&.primary b {
+					font-weight: bold;
+				}
+			}
+
+			& + h5 {
+				border-top: 1px solid $color-divider;
+				margin-top: 0.5rem;
+				padding-top: 0.5rem;
+			}
+		}
+	}
+// .footer {
+//
+//	}
+
+	.has-header-content {
+		.body {
+			border-top: 1px solid $color-divider;
+		}
+	}
+
+	.map-tooltip {
+		.originnode {
+			border-bottom: 1px solid $color-divider;
+			padding-bottom: 0.25rem;
+			margin-bottom: 0.25rem;
+		}
+		.drops {
+			font-size: 0.8rem;
+		}
+		.drop--rarity-green {
+			color: rgb(15, 133, 45);
+		}
+		.drop--rarity-blue {
+			color: rgb(0, 79, 233);
+		}
+		.drop--rarity-yellow {
+			color: rgb(242, 174, 0);
+		}
+		.drop--rarity-orange {
+			color: rgb(255, 69, 0);
+		}
+	}
+
+}

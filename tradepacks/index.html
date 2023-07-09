@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>📦 Trade Pack Reference — Famme's BDO Tools</title>
+  <meta name="description" content="Black Desert Online crate calculator">
+  <link rel="icon" type="image/png" href="../map/static/favicon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, minimal-ui">
+	<style>
+	@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700|Open+Sans+Condensed:300,700);
+	html {
+		font-family: 'Open Sans', sans-serif;
+	  font-weight: 400;
+		font-size: 11px;
+	}
+	html, body { margin: 0; padding: 0 }
+	#menu {
+		background: #b71c1c;
+		color: #FFF;
+		padding: 0;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 54px;
+		display: flex;
+	}
+	h1,h2 {
+		display: inline-block;
+		font-size: 1.2rem;
+		margin: 0rem 0.5rem 0;
+		padding: 0;
+		font-weight: 400;
+		padding-left: 0.5rem;
+	}
+	h1 {
+		font-weight: 700;
+		position: absolute;
+		top: 9px;
+	}
+	h2 {
+		position: absolute;
+		top: 25px;
+		font-size: 1.1rem;
+		color: rgba(255, 255, 255, 0.7);
+	}
+	.back {
+		border: 1px solid rgba(255, 255, 255, 0.2);
+		margin: 0;
+		display: inline-block;
+		padding: 0.5rem 1rem;
+		font-size: 1rem;
+		font-weight: normal;
+		color: rgba(255, 255, 255, 0.6);
+		text-decoration: none;
+		-webkit-box-flex: 1;
+		-ms-flex: 1;
+		flex: 1;
+		white-space: nowrap;
+		border-radius: 2px;
+	}
+	.back:hover {
+		border-color: rgba(255, 255, 255, 0.85);
+		color: rgba(255, 255, 255, 0.85);
+	}
+	.intro {
+		flex: 0 1 280px;
+		padding: 1.1rem;
+	}
+	.links {
+		flex: 1 1 50%;
+		background: #263238;
+		padding: 1.1rem 2rem;
+	}
+	.link {
+		border: 1px solid rgba(255, 255, 255, 0.2);
+		margin: 0 1rem 0 0;
+		display: inline-block;
+		padding: 0.5rem 1rem;
+		font-size: 1rem;
+		font-weight: normal;
+		color: rgba(255, 255, 255, 0.7);
+		text-decoration: none;
+		-webkit-box-flex: 1;
+		-ms-flex: 1;
+		flex: 1;
+		white-space: nowrap;
+		border-radius: 2px;
+	}
+	.link:hover {
+		border: 1px solid rgba(255, 255, 255, 0.4);
+		color: rgba(255, 255, 255, 0.9);
+	}
+	.link.selected {
+		font-weight: 700;
+		border-color: #FFF;
+		color: #263238;
+		background: #FFF;
+	}
+	</style>
+</head>
+
+<body>
+	<div id="app">
+		<iframe width="100%" height="1200" src="//jsfiddle.net/fffam/pL6us4kd/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+		<div id="menu">
+			<div class="intro">
+				<a class="back" href="/bdo/">← <span>Return to Map</span></a>
+				<h1>Famme's BDO Tools</h1>
+				<h2>Trading Tools</h2>
+			</div>
+			<div class="links">
+				<a href="/bdo/crates" class="link">Crate Calculator</a>
+				<a href="/bdo/tradepacks" class="link selected">Trade Pack Reference</a>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

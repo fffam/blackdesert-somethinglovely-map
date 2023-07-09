@@ -1,0 +1,23 @@
+@import "../../common";
+@import "../../MapIcons";
+
+i.icon.trader {
+	@include map-icon-trader;
+
+	width: 17px;
+	height: 17px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+
+//&.icon-Trade-Manager {
+//
+//}
+	&.icon-Smuggler {
+		@include map-icon-trader-red;
+	}
+	&.icon-Imperial-Trader, &.icon-Imperial {
+		@include map-icon-trader-yellow;
+	}
+}

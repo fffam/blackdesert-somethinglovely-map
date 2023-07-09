@@ -1,0 +1,66 @@
+@import "../../common";
+
+.trade-pack {
+	display: flex;
+	align-items: flex-start;
+
+	.img {
+		margin-right: 1rem;
+		position: relative;
+
+		#infopanel & img {
+			width: 30px;
+			height: 30px;
+		}
+
+		.quantity {
+			display: inline-block;
+			position: absolute;
+			right: 0;
+			bottom: 0;
+		}
+	}
+
+	.detail {
+		flex: 1;
+
+		h4 {
+			margin: 0;
+			padding: 0;
+			font-size: 0.9rem;
+
+			span {
+				font-weight: normal;
+				color: $color-text-2;
+			}
+		}
+		p {
+			margin: 0;
+			font-size: 0.9rem;
+			display: flex;
+			align-items: flex-start;
+
+			& > span {
+				display: block;
+				flex: 1;
+			}
+			.skill-level {
+				white-space: nowrap;
+			}
+			.price {
+				color: $color-text-2;
+				text-align: right;
+				&::before {
+					width: 16px;
+					height: 16px;
+					background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAMmSURBVHjaYvz//z8DOvh1SUHl/7//B4BSEv///WP+/4/hJ5B/jeEfQyO35ZONyGoBAogBZAA6/n5e7vPv54v+//92+f//L8f///+4+//vl4v+fzosdQddLUAAsTBgAf///uNhETBhYPjxjIHhz3sGht/vGZjYeRn+/fmnjK4WIICwGvDvLxD/fMLA+PsD0LQfDH+/32dg+MnE8PcPpncBAgiHC/4z/P10luH3y51Ag74w/Pv2kYFV2BzoAky1AAGEwwX/gE6WZmDl02T4//MFwz9WLoZ/wJD8++cfhlqAAGL5eV6eDxTCwNAGhjgDM9D2n4z/GRn+fL7O8OfdZaAPvjD8/faZgVNJD6sXAAKIBWhbFYtYqTSruB/Yvwx/v7L//nqX4dvNRgZOESuG/xwvGJjZgQH5/w/D39+YrgUIIKAB/8tZxDyBof0JqBmEvzCwcIox/P76loGZ6RrD/++fgWZ+ZmBlFAMagOkFgABi+QsKmH9fgRZ8AdryCxhor4Ep6TvDH6B/2fhVgC54xfCX/R0DM48Aw18sgQgQQCzAuAXacJvh74dzDP9+vQQG2mMGZj4lhr+//jP8fHeD4f+3rwyMv94z/P/6lEFUiInh4waR/3//MvwEBug1YHQ3AgQQy9/f/xkYWYUZmDkVGZhYBRn+A9n//79n+AMUZxdUZfjH8ZLh15vXDJyWaxiYWHiAdv5g+P/7E/uPjxcN3+xr7wUIICZQ1DAyMTH8+XYbGAyXgPgCAwuPNsMfoAt+f33D8Ost0Au//gKjVQScIhm+P2Vg/PGcgUNAleHXr//KAAHEBAzZVd/fnGdg5dViYAFiViFzhm9v7wFDXojhL5cUA4eGC8M/dkmGb49XAF0GtJ3hDzB8PjB8vr+K4dfP/6sAAgBBAL7/BPz7/sf57tFWAhUrAAMFAwD79/QA9O7bAPbw7L31xq8Q//z/LQYGAekTDcwdAAD0AAIE/wD89eYA9OniAPv5/8cCiPHeCmFFYBJNA6YHV2Dg6ALZl4FRuxsYQLP0st/fB4X0/bmCin/+/E8DhpcrMCZ0gQnqMjCx7gaqnQUQYADyc65aGZYFjwAAAABJRU5ErkJggg==");
+					content: " ";
+				}
+			}
+			.weight {
+				color: $color-text-2;
+				text-align: center;
+			}
+		}
+	}
+}

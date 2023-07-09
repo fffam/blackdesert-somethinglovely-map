@@ -1,0 +1,91 @@
+//@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700|Open+Sans+Condensed:300,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300,700|Roboto:400,700);
+
+$color-red-50:  #FFEBEE;
+$color-red-100: #FFCDD2;
+$color-red-200: #EF9A9A;
+$color-red-300: #E57373;
+$color-red-400: #EF5350;
+$color-red-500: #F44336;
+$color-red-600: #E53935;
+$color-red-700: #D32F2F;
+$color-red-800: #C62828;
+$color-red-900: #B71C1C;
+
+$color-primary: $color-red-500;
+$color-primary-700: $color-red-700;
+$color-accent: #00E676;
+
+$color-text: rgba(0,0,0,0.87);
+$color-text-2: rgba(0,0,0,0.54);
+$color-text-3: rgba(0,0,0,0.38);
+$color-text-4: rgba(0,0,0,0.18);
+$color-text-on-primary: #FFF;
+$color-text-on-accent: #FFF;
+$color-text-link: #2196F3;
+
+$color-divider: rgba(0,0,0,0.12);
+$color-grey-50:  #FAFAFA;
+$color-grey-100: #F5F5F5;
+$color-grey-200: #EEE;
+$color-grey-300: #E0E0E0;
+$color-grey-400: #DBDBDB;
+$color-grey-500: #9E9E9E;
+$color-grey-600: #757575;
+$color-grey-700: #616161;
+$color-grey-800: #424242;
+$color-grey-900: #212121;
+
+$color-message-background: #263238;
+$color-message-text: rgba(255,255,255,0.54);
+$color-message-text-link: rgba(255,255,255,0.87);
+
+$menu-padding: 1rem;
+$pane-width: 25rem;
+
+@mixin font-normal() {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+@mixin font-bold() {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+@mixin font-condensed() {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 300;
+}
+@mixin font-condensed-bold() {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+}
+
+.ui-button {
+	//border: 1px solid rgba(0,0,0,1);
+	border: none;
+	display: inline-block;
+	padding: 0.5rem 1rem;
+	background: $color-red-700;
+	border-radius: 3px;
+	color: $color-text-on-primary;
+	cursor: pointer;
+
+	&:hover {
+		color: $color-text-on-primary;
+		//border-color: $color-red-500;
+		background-color: $color-red-500;
+	}
+
+	&:focus {
+		outline: none;
+		//border-color: $color-red-500;
+		background-color: $color-red-700;
+	}
+
+	&:active {
+		outline: none;
+		color: $color-text-on-primary;
+		//border-color: $color-red-500;
+		background-color: $color-red-800;
+	}
+}

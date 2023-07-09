@@ -1,0 +1,191 @@
+/*
+@import "../../common";
+
+#info-unit {
+	background: #FFF;
+	// border-top: 2px solid $color-primary-700;
+	box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.5);
+
+	padding: 0 0 $menu-padding/2;
+	margin: 0;
+
+	flex: 1;
+	flex-flow: column;
+	display: flex;
+
+	// Main Heading
+	h1 {
+		margin: 0;
+		padding: $menu-padding;
+		font-size: 1rem;
+		background: $color-primary-700;
+		border-bottom: 4px solid $color-red-900;
+		color: $color-text-on-primary;
+
+		i {
+			margin-bottom: -9px;
+			margin-right: 4px;
+		}
+	}
+
+	header {
+		flex: 0;
+	}
+	.panel-body {
+		flex: 1;
+		overflow-y: scroll;
+	}
+
+	p.requirement {
+		color: $color-red-900;
+		background-color: $color-red-50;
+		padding: $menu-padding;
+		margin: 0 0 $menu-padding;
+	}
+
+	dl {
+
+		font-size: 0.85rem;
+		padding: 0 $menu-padding;
+		display: flex;
+		flex-wrap: wrap;
+		list-style: none;
+
+		dt, dd {
+			list-style: none;
+			flex-wrap: wrap;
+			padding: 0;
+			margin: 0;
+		}
+		dt {
+			flex: 1 0 35%;
+		}
+		dd {
+			flex: 1 0 65%;
+		}
+	}
+
+	h3 {
+		margin: 0 1rem;
+		padding: 0;
+
+		span {
+			font-size: 1rem;
+			color: $color-text-3;
+			background: #FFF;
+			margin: 0;
+			padding: 0 0.5rem 0 0;
+		}
+
+		&::after {
+			content: " ";
+			border-top: 1px solid $color-divider;
+			width: 95%;
+			display: block;
+			height: 1px;
+			overflow: hidden;
+			margin-top: -0.75rem;
+		}
+	}
+
+	ul {
+		list-style: none;
+		margin: 0 $menu-padding;
+		padding: $menu-padding 0;
+
+		li {
+			list-style: none;
+			margin: 0;
+			padding: 2px 0 0;
+
+			&.list-item-node {
+				font-size: 0.9rem;
+				margin-bottom: 0.25rem;
+
+				h4 {
+					margin: 0;
+					font-size: 1rem;
+					.icon { margin-bottom: -4px; margin-right: 0.5rem; }
+				}
+
+				span {
+					color: $color-text-3;
+					font-size: 0.8rem;
+					display: block;
+					padding-left: 2rem;
+				}
+
+				.requirement {
+					color: $color-primary;
+				}
+
+				ul {
+					margin: 0;
+					padding: 0.5rem 0 0.5rem 2rem;
+					list-style: none;
+				}
+
+				li {
+					margin: 0 0 0.25rem;
+					padding: 0;
+				}
+
+				.primary {
+					color: $color-grey-800;
+				}
+				.secondary {
+					color: $color-grey-600;
+				}
+			}
+		}
+
+		img {
+			height: 22px;
+			width: 22px;
+			margin-bottom: -8px;
+		}
+	}
+	.traders {
+		padding-left: 2rem;
+
+		h2 {
+			margin: 0;
+			font-size: 1rem;
+			font-weight: 400;
+			position: relative;
+
+			i {
+				position: absolute;
+				left: -2rem;
+			}
+
+			strong {
+				font-weight: bold;
+			}
+
+		}
+		& > li > span {
+			color: $color-text-3;
+			font-size: 0.8rem;
+			display: block;
+		}
+
+		ul {
+			margin: 0 0 1rem;
+			padding: 0;
+
+			li {
+				margin: 0.5rem 0;
+				padding: 0;
+			}
+		}
+	}
+
+	.notes {
+		font-size: 0.9;
+		color: $color-text;
+		margin: 0 1rem;
+		border-top: 1px solid $color-divider;
+	}
+}
+*/

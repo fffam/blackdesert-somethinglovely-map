@@ -1,0 +1,1234 @@
+{
+	"Cron Castle": {
+		"name": "Cron Castle",
+		"links": [],
+		"day": "Sunday",
+		"area": "Eastern Velia",
+		"level": 3,
+		"region": "Balenos"
+	},
+	"Heidel Vicinity": {
+		"name": "Heidel Vicinity",
+		"links": [],
+		"day": "Monday",
+		"area": "Eastern Velia",
+		"level": 1,
+		"region": "Balenos"
+	},
+	"Forest of Plunder": {
+		"name": "Forest of Plunder",
+		"links": [],
+		"day": "Tuesday",
+		"area": "Eastern Velia",
+		"level": 1,
+		"region": "Balenos"
+	},
+	"Cron Castle Site": {
+		"name": "Cron Castle Site",
+		"links": [],
+		"day": "Wednesday",
+		"area": "Eastern Velia",
+		"level": 2,
+		"region": "Balenos"
+	},
+	"Ehwaz Hill": {
+		"name": "Ehwaz Hill",
+		"links": [],
+		"day": "Thursday",
+		"area": "Eastern Velia",
+		"level": 1,
+		"region": "Balenos"
+	},
+	"Goblin Cave": {
+		"name": "Goblin Cave",
+		"links": [],
+		"day": "Friday",
+		"area": "Eastern Velia",
+		"level": 2,
+		"region": "Balenos"
+	},
+	"Western Guard Camp": {
+		"name": "Western Guard Camp",
+		"links": [],
+		"day": "Sunday",
+		"area": "Western Velia",
+		"level": 3,
+		"region": "Balenos"
+	},
+	"Coastal Cave": {
+		"name": "Coastal Cave",
+		"links": [],
+		"day": "Monday",
+		"area": "Western Velia",
+		"level": 1,
+		"region": "Balenos"
+	},
+	"Toscani Farm": {
+		"name": "Toscani Farm",
+		"links": [],
+		"day": "Tuesday",
+		"area": "Western Velia",
+		"level": 1,
+		"region": "Balenos"
+	},
+	"Agris Altar": {
+		"name": "Agris Altar",
+		"links": [],
+		"day": "Wednesday",
+		"area": "Western Velia",
+		"level": 1,
+		"region": "Balenos"
+	},
+	"Imp Cave": {
+		"name": "Imp Cave",
+		"links": [],
+		"day": "Thursday",
+		"area": "Western Velia",
+		"level": 2,
+		"region": "Balenos"
+	},
+	"Ancient Stone Chamber": {
+		"name": "Ancient Stone Chamber",
+		"links": [],
+		"day": "Friday",
+		"area": "Western Velia",
+		"level": 2,
+		"region": "Balenos"
+	},
+	"Western Gateway": {
+		"name": "Western Gateway",
+		"links": [],
+		"day": "Sunday",
+		"area": "Eastern Olvia",
+		"level": 2,
+		"region": "Balenos"
+	},
+	"Balenos River Mouth": {
+		"name": "Balenos River Mouth",
+		"links": [],
+		"day": "Monday",
+		"area": "Eastern Olvia",
+		"level": 1,
+		"region": "Balenos"
+	},
+	"Wolf Hill": {
+		"name": "Wolf Hill",
+		"links": [],
+		"day": "Tuesday",
+		"area": "Eastern Olvia",
+		"level": 1,
+		"region": "Balenos"
+	},
+	"Casta Farm": {
+		"name": "Casta Farm",
+		"links": [],
+		"day": "Wednesday",
+		"area": "Eastern Olvia",
+		"level": 1,
+		"region": "Balenos"
+	},
+	"Olvia Coast": {
+		"name": "Olvia Coast",
+		"links": [],
+		"day": "Thursday",
+		"area": "Eastern Olvia",
+		"level": 2,
+		"region": "Balenos"
+	},
+	"Wale Farm": {
+		"name": "Wale Farm",
+		"links": [],
+		"day": "Friday",
+		"area": "Eastern Olvia",
+		"level": 1,
+		"region": "Balenos"
+	},
+	"Elder's Bridge": {
+		"name": "Elder's Bridge",
+		"links": [],
+		"day": "Sunday",
+		"area": "Western Olvia",
+		"level": 1,
+		"region": "Balenos"
+	},
+	"Thermian Cliff": {
+		"name": "Thermian Cliff",
+		"links": [],
+		"day": "Monday",
+		"area": "Western Olvia",
+		"level": 1,
+		"region": "Balenos"
+	},
+	"Mask Owl Forest": {
+		"name": "Mask Owl Forest",
+		"links": [],
+		"day": "Tuesday",
+		"area": "Western Olvia",
+		"level": 2,
+		"region": "Balenos"
+	},
+	"Epheria Ridge": {
+		"name": "Epheria Ridge",
+		"links": [],
+		"day": "Wednesday",
+		"area": "Western Olvia",
+		"level": 1,
+		"region": "Balenos"
+	},
+	"Foot of Thermian Mountain": {
+		"name": "Foot of Thermian Mountain",
+		"links": [],
+		"day": "Thursday",
+		"area": "Western Olvia",
+		"level": 1,
+		"region": "Balenos"
+	},
+	"Florin Gateway": {
+		"name": "Florin Gateway",
+		"links": [],
+		"day": "Friday",
+		"area": "Western Olvia",
+		"level": 2,
+		"region": "Balenos"
+	},
+	"Lynch Ranch": {
+		"name": "Lynch Ranch",
+		"links": [],
+		"day": "Sunday",
+		"area": "Northern Serendia",
+		"level": 1,
+		"region": "Serendia"
+	},
+	"Northern Guard Camp": {
+		"name": "Northern Guard Camp",
+		"links": [],
+		"day": "Monday",
+		"area": "Northern Serendia",
+		"level": 1,
+		"region": "Serendia"
+	},
+	"Eastern Border": {
+		"name": "Eastern Border",
+		"links": [],
+		"day": "Tuesday",
+		"area": "Northern Serendia",
+		"level": 3,
+		"region": "Serendia"
+	},
+	"Northern Serendia Plains": {
+		"name": "Northern Serendia Plains",
+		"links": [],
+		"day": "Wednesday",
+		"area": "Northern Serendia",
+		"level": 1,
+		"region": "Serendia"
+	},
+	"Alejandro Farm": {
+		"name": "Alejandro Farm",
+		"links": [],
+		"day": "Thursday",
+		"area": "Northern Serendia",
+		"level": 1,
+		"region": "Serendia"
+	},
+	"Heidel North Quarry": {
+		"name": "Heidel North Quarry",
+		"links": [],
+		"day": "Friday",
+		"area": "Northern Serendia",
+		"level": 2,
+		"region": "Serendia"
+	},
+	"Glish Ruins": {
+		"name": "Glish Ruins",
+		"links": [],
+		"day": "Sunday",
+		"area": "Serendia Cianaga",
+		"level": 3,
+		"region": "Serendia"
+	},
+	"Central Guard Camp": {
+		"name": "Central Guard Camp",
+		"links": [],
+		"day": "Monday",
+		"area": "Serendia Cianaga",
+		"level": 1,
+		"region": "Serendia"
+	},
+	"Northwestern Gateway": {
+		"name": "Northwestern Gateway",
+		"links": [],
+		"day": "Tuesday",
+		"area": "Serendia Cianaga",
+		"level": 2,
+		"region": "Serendia"
+	},
+	"Costa Farm": {
+		"name": "Costa Farm",
+		"links": [],
+		"day": "Wednesday",
+		"area": "Serendia Cianaga",
+		"level": 1,
+		"region": "Serendia"
+	},
+	"Glish Swamp": {
+		"name": "Glish Swamp",
+		"links": [],
+		"day": "Thursday",
+		"area": "Serendia Cianaga",
+		"level": 2,
+		"region": "Serendia"
+	},
+	"Southern Cienaga": {
+		"name": "Southern Cienaga",
+		"links": [],
+		"day": "Friday",
+		"area": "Serendia Cianaga",
+		"level": 1,
+		"region": "Serendia"
+	},
+	"Eastern Gateway": {
+		"name": "Eastern Gateway",
+		"links": [],
+		"day": "Sunday",
+		"area": "Serendia Outer Mountain Range",
+		"level": 1,
+		"region": "Serendia"
+	},
+	"Southern Guard Camp": {
+		"name": "Southern Guard Camp",
+		"links": [],
+		"day": "Monday",
+		"area": "Serendia Outer Mountain Range",
+		"level": 1,
+		"region": "Serendia"
+	},
+	"Moretti Plantation": {
+		"name": "Moretti Plantation",
+		"links": [],
+		"day": "Tuesday",
+		"area": "Serendia Outer Mountain Range",
+		"level": 3,
+		"region": "Serendia"
+	},
+	"Abandoned Castle Site": {
+		"name": "Abandoned Castle Site",
+		"links": [],
+		"day": "Wednesday",
+		"area": "Serendia Outer Mountain Range",
+		"level": 2,
+		"region": "Serendia"
+	},
+	"Bloody Monastery": {
+		"name": "Bloody Monastery",
+		"links": [],
+		"day": "Thursday",
+		"area": "Serendia Outer Mountain Range",
+		"level": 1,
+		"region": "Serendia"
+	},
+	"Serendia Temple": {
+		"name": "Serendia Temple",
+		"links": [],
+		"day": "Friday",
+		"area": "Serendia Outer Mountain Range",
+		"level": 1,
+		"region": "Serendia"
+	},
+	"Watch Tower": {
+		"name": "Watch Tower",
+		"links": [],
+		"day": "Sunday",
+		"area": "Serendia Neutral Zone",
+		"level": 1,
+		"region": "Serendia"
+	},
+	"Southwestern Gateway": {
+		"name": "Southwestern Gateway",
+		"links": [],
+		"day": "Monday",
+		"area": "Serendia Neutral Zone",
+		"level": 1,
+		"region": "Serendia"
+	},
+	"Biraghi Den": {
+		"name": "Biraghi Den",
+		"links": [],
+		"day": "Tuesday",
+		"area": "Serendia Neutral Zone",
+		"level": 2,
+		"region": "Serendia"
+	},
+	"Bradie Fortress": {
+		"name": "Bradie Fortress",
+		"links": [],
+		"day": "Wednesday",
+		"area": "Serendia Neutral Zone",
+		"level": 1,
+		"region": "Serendia"
+	},
+	"Southern Neutral Zone": {
+		"name": "Southern Neutral Zone",
+		"links": [],
+		"day": "Thursday",
+		"area": "Serendia Neutral Zone",
+		"level": 1,
+		"region": "Serendia"
+	},
+	"Orc Camp": {
+		"name": "Orc Camp",
+		"links": [],
+		"day": "Friday",
+		"area": "Serendia Neutral Zone",
+		"level": 1,
+		"region": "Serendia"
+	},
+	"Northern Wheat Plantation": {
+		"name": "Northern Wheat Plantation",
+		"links": [],
+		"day": "Sunday",
+		"area": "Northeastern Calpheon",
+		"level": 3,
+		"region": "Calpheon"
+	},
+	"Delphe Knights Castle": {
+		"name": "Delphe Knights Castle",
+		"links": [],
+		"day": "Monday",
+		"area": "Northeastern Calpheon",
+		"level": 1,
+		"region": "Calpheon"
+	},
+	"Bree Tree Ruins": {
+		"name": "Bree Tree Ruins",
+		"links": [],
+		"day": "Tuesday",
+		"area": "Northeastern Calpheon",
+		"level": 1,
+		"region": "Calpheon"
+	},
+	"Khuruto Cave": {
+		"name": "Khuruto Cave",
+		"links": [],
+		"day": "Wednesday",
+		"area": "Northeastern Calpheon",
+		"level": 1,
+		"region": "Calpheon"
+	},
+	"Delphe Outpost": {
+		"name": "Delphe Outpost",
+		"links": [],
+		"day": "Thursday",
+		"area": "Northeastern Calpheon",
+		"level": 2,
+		"region": "Calpheon"
+	},
+	"Karanda Ridge": {
+		"name": "Karanda Ridge",
+		"links": [],
+		"day": "Friday",
+		"area": "Northeastern Calpheon",
+		"level": 1,
+		"region": "Calpheon"
+	},
+	"Epheria Valley": {
+		"name": "Epheria Valley",
+		"links": [],
+		"day": "Sunday",
+		"area": "Northwestern Calpheon",
+		"level": 1,
+		"region": "Calpheon"
+	},
+	"Abandoned Land": {
+		"name": "Abandoned Land",
+		"links": [],
+		"day": "Monday",
+		"area": "Northwestern Calpheon",
+		"level": 1,
+		"region": "Calpheon"
+	},
+	"Quint Hill": {
+		"name": "Quint Hill",
+		"links": [],
+		"day": "Tuesday",
+		"area": "Northwestern Calpheon",
+		"level": 2,
+		"region": "Calpheon"
+	},
+	"Anti-Troll Fortification": {
+		"name": "Anti-Troll Fortification",
+		"links": [],
+		"day": "Wednesday",
+		"area": "Northwestern Calpheon",
+		"level": 3,
+		"region": "Calpheon"
+	},
+	"Contaminated Farm": {
+		"name": "Contaminated Farm",
+		"links": [],
+		"day": "Thursday",
+		"area": "Northwestern Calpheon",
+		"level": 1,
+		"region": "Calpheon"
+	},
+	"Epheria Sentry Post": {
+		"name": "Epheria Sentry Post",
+		"links": [],
+		"day": "Friday",
+		"area": "Northwestern Calpheon",
+		"level": 2,
+		"region": "Calpheon"
+	},
+	"Rhutum Outstation": {
+		"name": "Rhutum Outstation",
+		"links": [],
+		"day": "Sunday",
+		"area": "Calpheon Castle Site",
+		"level": 2,
+		"region": "Calpheon"
+	},
+	"North Kaia Mountain": {
+		"name": "North Kaia Mountain",
+		"links": [],
+		"day": "Monday",
+		"area": "Calpheon Castle Site",
+		"level": 1,
+		"region": "Calpheon"
+	},
+	"Lake Kaia": {
+		"name": "Lake Kaia",
+		"links": [],
+		"day": "Tuesday",
+		"area": "Calpheon Castle Site",
+		"level": 1,
+		"region": "Calpheon"
+	},
+	"Catfishman Camp": {
+		"name": "Catfishman Camp",
+		"links": [],
+		"day": "Wednesday",
+		"area": "Calpheon Castle Site",
+		"level": 2,
+		"region": "Calpheon"
+	},
+	"Mansha Forest": {
+		"name": "Mansha Forest",
+		"links": [],
+		"day": "Thursday",
+		"area": "Calpheon Castle Site",
+		"level": 3,
+		"region": "Calpheon"
+	},
+	"Tobare's Cabin": {
+		"name": "Tobare's Cabin",
+		"links": [],
+		"day": "Friday",
+		"area": "Calpheon Castle Site",
+		"level": 1,
+		"region": "Calpheon"
+	},
+	"Behr Riverhead": {
+		"name": "Behr Riverhead",
+		"links": [],
+		"day": "Sunday",
+		"area": "Southwestern Calpheon",
+		"level": 1,
+		"region": "Calpheon"
+	},
+	"Phoniel's Cabin": {
+		"name": "Phoniel's Cabin",
+		"links": [],
+		"day": "Monday",
+		"area": "Southwestern Calpheon",
+		"level": 2,
+		"region": "Calpheon"
+	},
+	"Longleaf Tree Forest": {
+		"name": "Longleaf Tree Forest",
+		"links": [],
+		"day": "Tuesday",
+		"area": "Southwestern Calpheon",
+		"level": 1,
+		"region": "Calpheon"
+	},
+	"Longleaf Tree Sentry Post": {
+		"name": "Longleaf Tree Sentry Post",
+		"links": [],
+		"day": "Wednesday",
+		"area": "Southwestern Calpheon",
+		"level": 1,
+		"region": "Calpheon"
+	},
+	"Crioville": {
+		"name": "Crioville",
+		"links": [],
+		"day": "Thursday",
+		"area": "Southwestern Calpheon",
+		"level": 2,
+		"region": "Calpheon"
+	},
+	"Treant Forest": {
+		"name": "Treant Forest",
+		"links": [],
+		"day": "Friday",
+		"area": "Southwestern Calpheon",
+		"level": 1,
+		"region": "Calpheon"
+	},
+	"Hexe Sanctuary": {
+		"name": "Hexe Sanctuary",
+		"links": [],
+		"day": "Sunday",
+		"area": "Southern Calpheon",
+		"level": 3,
+		"region": "Calpheon"
+	},
+	"Hexe Stone Wall": {
+		"name": "Hexe Stone Wall",
+		"links": [],
+		"day": "Monday",
+		"area": "Southern Calpheon",
+		"level": 3,
+		"region": "Calpheon"
+	},
+	"Marie Cave": {
+		"name": "Marie Cave",
+		"links": [],
+		"day": "Tuesday",
+		"area": "Southern Calpheon",
+		"level": 2,
+		"region": "Calpheon"
+	},
+	"Witch's Chapel": {
+		"name": "Witch's Chapel",
+		"links": [],
+		"day": "Wednesday",
+		"area": "Southern Calpheon",
+		"level": 1,
+		"region": "Calpheon"
+	},
+	"Behr River Downstream": {
+		"name": "Behr River Downstream",
+		"links": [],
+		"day": "Thursday",
+		"area": "Southern Calpheon",
+		"level": 1,
+		"region": "Calpheon"
+	},
+	"Rhua Tree Stub": {
+		"name": "Rhua Tree Stub",
+		"links": [],
+		"day": "Friday",
+		"area": "Southern Calpheon",
+		"level": 1,
+		"region": "Calpheon"
+	},
+	"Beacon Entrance Post": {
+		"name": "Beacon Entrance Post",
+		"links": [],
+		"day": "Sunday",
+		"area": "Southern Keplan",
+		"level": 1,
+		"region": "Calpheon"
+	},
+	"Saunil Camp": {
+		"name": "Saunil Camp",
+		"links": [],
+		"day": "Monday",
+		"area": "Southern Keplan",
+		"level": 2,
+		"region": "Calpheon"
+	},
+	"Primal Giant Post": {
+		"name": "Primal Giant Post",
+		"links": [],
+		"day": "Tuesday",
+		"area": "Southern Keplan",
+		"level": 1,
+		"region": "Calpheon"
+	},
+	"Trina Fort": {
+		"name": "Trina Fort",
+		"links": [],
+		"day": "Wednesday",
+		"area": "Southern Keplan",
+		"level": 3,
+		"region": "Calpheon"
+	},
+	"Trina Beacon Mounds": {
+		"name": "Trina Beacon Mounds",
+		"links": [],
+		"day": "Thursday",
+		"area": "Southern Keplan",
+		"level": 1,
+		"region": "Calpheon"
+	},
+	"Marni's Lab": {
+		"name": "Marni's Lab",
+		"links": [],
+		"day": "Friday",
+		"area": "Southern Keplan",
+		"level": 1,
+		"region": "Calpheon"
+	},
+	"Northern Abandoned Quarry": {
+		"name": "Northern Abandoned Quarry",
+		"links": [],
+		"day": "Sunday",
+		"area": "Northern Keplan",
+		"level": 1,
+		"region": "Calpheon"
+	},
+	"Oze Pass": {
+		"name": "Oze Pass",
+		"links": [],
+		"day": "Monday",
+		"area": "Northern Keplan",
+		"level": 3,
+		"region": "Calpheon"
+	},
+	"Keplan Hill": {
+		"name": "Keplan Hill",
+		"links": [],
+		"day": "Tuesday",
+		"area": "Northern Keplan",
+		"level": 1,
+		"region": "Calpheon"
+	},
+	"Keplan Vicinity": {
+		"name": "Keplan Vicinity",
+		"links": [],
+		"day": "Wednesday",
+		"area": "Northern Keplan",
+		"level": 1,
+		"region": "Calpheon"
+	},
+	"Abandoned Quarry": {
+		"name": "Abandoned Quarry",
+		"links": [],
+		"day": "Thursday",
+		"area": "Northern Keplan",
+		"level": 1,
+		"region": "Calpheon"
+	},
+	"Oze's House": {
+		"name": "Oze's House",
+		"links": [],
+		"day": "Friday",
+		"area": "Northern Keplan",
+		"level": 2,
+		"region": "Calpheon"
+	},
+	"Sarma Outpost": {
+		"name": "Sarma Outpost",
+		"links": [],
+		"day": "Sunday",
+		"area": "Northern Mediah",
+		"level": 3,
+		"region": "Mediah"
+	},
+	"Northern Mediah Gateway": {
+		"name": "Northern Mediah Gateway",
+		"links": [],
+		"day": "Monday",
+		"area": "Northern Mediah",
+		"level": 2,
+		"region": "Mediah"
+	},
+	"Sausan Garrison": {
+		"name": "Sausan Garrison",
+		"links": [],
+		"day": "Tuesday",
+		"area": "Northern Mediah",
+		"level": 1,
+		"region": "Mediah"
+	},
+	"Mediah Northern Highland": {
+		"name": "Mediah Northern Highland",
+		"links": [],
+		"day": "Wednesday",
+		"area": "Northern Mediah",
+		"level": 1,
+		"region": "Mediah"
+	},
+	"Stonetail Wasteland": {
+		"name": "Stonetail Wasteland",
+		"links": [],
+		"day": "Thursday",
+		"area": "Northern Mediah",
+		"level": 1,
+		"region": "Mediah"
+	},
+	"Kusha Villa": {
+		"name": "Kusha Villa",
+		"links": [],
+		"day": "Friday",
+		"area": "Northern Mediah",
+		"level": 1,
+		"region": "Mediah"
+	},
+	"Kamasilve Temple": {
+		"name": "Kamasilve Temple",
+		"links": [],
+		"day": "Sunday",
+		"area": "Central Mediah I",
+		"level": 3,
+		"region": "Mediah"
+	},
+	"Canyon of Corruption": {
+		"name": "Canyon of Corruption",
+		"links": [],
+		"day": "Monday",
+		"area": "Central Mediah I",
+		"level": 1,
+		"region": "Mediah"
+	},
+	"Elric Temple": {
+		"name": "Elric Temple",
+		"links": [],
+		"day": "Tuesday",
+		"area": "Central Mediah I",
+		"level": 2,
+		"region": "Mediah"
+	},
+	"Ancient Ruins Excavation Site": {
+		"name": "Ancient Ruins Excavation Site",
+		"links": [],
+		"day": "Wednesday",
+		"area": "Central Mediah I",
+		"level": 1,
+		"region": "Mediah"
+	},
+	"Helms Post": {
+		"name": "Helms Post",
+		"links": [],
+		"day": "Thursday",
+		"area": "Central Mediah I",
+		"level": 1,
+		"region": "Mediah"
+	},
+	"Stonetail Horse Ranch": {
+		"name": "Stonetail Horse Ranch",
+		"links": [],
+		"day": "Friday",
+		"area": "Central Mediah I",
+		"level": 1,
+		"region": "Mediah"
+	},
+	"Stonebeak Shore": {
+		"name": "Stonebeak Shore",
+		"links": [],
+		"day": "Sunday",
+		"area": "Central Mediah II",
+		"level": 2,
+		"region": "Mediah"
+	},
+	"Omar Lava Cave": {
+		"name": "Omar Lava Cave",
+		"links": [],
+		"day": "Monday",
+		"area": "Central Mediah II",
+		"level": 2,
+		"region": "Mediah"
+	},
+	"Asula Highland": {
+		"name": "Asula Highland",
+		"links": [],
+		"day": "Tuesday",
+		"area": "Central Mediah II",
+		"level": 1,
+		"region": "Mediah"
+	},
+	"Manes Hideout": {
+		"name": "Manes Hideout",
+		"links": [],
+		"day": "Wednesday",
+		"area": "Central Mediah II",
+		"level": 1,
+		"region": "Mediah"
+	},
+	"Ahto Farm": {
+		"name": "Ahto Farm",
+		"links": [],
+		"day": "Thursday",
+		"area": "Central Mediah II",
+		"level": 1,
+		"region": "Mediah"
+	},
+	"Awakening Bell": {
+		"name": "Awakening Bell",
+		"links": [],
+		"day": "Friday",
+		"area": "Central Mediah II",
+		"level": 3,
+		"region": "Mediah"
+	},
+	"Alumn Rock Valley": {
+		"name": "Alumn Rock Valley",
+		"links": [],
+		"day": "Sunday",
+		"area": "Southern Mediah",
+		"level": 1,
+		"region": "Mediah"
+	},
+	"Wandering Rogue Den": {
+		"name": "Wandering Rogue Den",
+		"links": [],
+		"day": "Monday",
+		"area": "Southern Mediah",
+		"level": 1,
+		"region": "Mediah"
+	},
+	"Abandoned Iron Mine": {
+		"name": "Abandoned Iron Mine",
+		"links": [],
+		"day": "Tuesday",
+		"area": "Southern Mediah",
+		"level": 2,
+		"region": "Mediah"
+	},
+	"Marni's 2nd Lab": {
+		"name": "Marni's 2nd Lab",
+		"links": [],
+		"day": "Wednesday",
+		"area": "Southern Mediah",
+		"level": 1,
+		"region": "Mediah"
+	},
+	"Splashing Point": {
+		"name": "Splashing Point",
+		"links": [],
+		"day": "Thursday",
+		"area": "Southern Mediah",
+		"level": 3,
+		"region": "Mediah"
+	},
+	"Kasula Farm": {
+		"name": "Kasula Farm",
+		"links": [],
+		"day": "Friday",
+		"area": "Southern Mediah",
+		"level": 1,
+		"region": "Mediah"
+	},
+	"Hasrah Cliff": {
+		"name": "Hasrah Cliff",
+		"links": [],
+		"day": "Sunday",
+		"area": "Tungrad Forest",
+		"level": 2,
+		"region": "Calpheon"
+	},
+	"Tungrad Forest": {
+		"name": "Tungrad Forest",
+		"links": [],
+		"day": "Wednesday",
+		"area": "Tungrad Forest",
+		"level": 2,
+		"region": "Calpheon"
+	},
+	"Soldier's Grave": {
+		"name": "Soldier's Grave",
+		"links": [],
+		"day": "Friday",
+		"area": "Tungrad Forest",
+		"level": 2,
+		"region": "Calpheon"
+	},
+	"Rock Post": {
+		"name": "Rock Post",
+		"links": [],
+		"day": "Sunday",
+		"area": "Valencia Entrance I",
+		"level": 3,
+		"region": "Valencia"
+	},
+	"Taphtar Plain": {
+		"name": "Taphtar Plain",
+		"links": [],
+		"day": "Monday",
+		"area": "Valencia Entrance I",
+		"level": 1,
+		"region": "Valencia"
+	},
+	"Gorgo Rock Area": {
+		"name": "Gorgo Rock Area",
+		"links": [],
+		"day": "Tuesday",
+		"area": "Valencia Entrance I",
+		"level": 2,
+		"region": "Valencia"
+	},
+	"Veteran's Canyon": {
+		"name": "Veteran's Canyon",
+		"links": [],
+		"day": "Wednesday",
+		"area": "Valencia Entrance I",
+		"level": 1,
+		"region": "Valencia"
+	},
+	"Cadry Ruins": {
+		"name": "Cadry Ruins",
+		"links": [],
+		"day": "Thursday",
+		"area": "Valencia Entrance I",
+		"level": 2,
+		"region": "Valencia"
+	},
+	"Ruined Rune": {
+		"name": "Ruined Rune",
+		"links": [],
+		"day": "Friday",
+		"area": "Valencia Entrance I",
+		"level": 1,
+		"region": "Valencia"
+	},
+	"Capotia": {
+		"name": "Capotia",
+		"links": [],
+		"day": "Sunday",
+		"area": "Valencia Entrance II",
+		"level": 2,
+		"region": "Valencia"
+	},
+	"Pujiya Canyon": {
+		"name": "Pujiya Canyon",
+		"links": [],
+		"day": "Monday",
+		"area": "Valencia Entrance II",
+		"level": 1,
+		"region": "Valencia"
+	},
+	"Bashin Base": {
+		"name": "Bashin Base",
+		"links": [],
+		"day": "Tuesday",
+		"area": "Valencia Entrance II",
+		"level": 1,
+		"region": "Valencia"
+	},
+	"Waragon Nest": {
+		"name": "Waragon Nest",
+		"links": [],
+		"day": "Wednesday",
+		"area": "Valencia Entrance II",
+		"level": 1,
+		"region": "Valencia"
+	},
+	"Altinova Gate": {
+		"name": "Altinova Gate",
+		"links": [],
+		"day": "Thursday",
+		"area": "Valencia Entrance II",
+		"level": 1,
+		"region": "Valencia"
+	},
+	"Barhan Gateway": {
+		"name": "Barhan Gateway",
+		"links": [],
+		"day": "Friday",
+		"area": "Valencia Entrance II",
+		"level": 3,
+		"region": "Valencia"
+	},
+	"Ibellab Oasis": {
+		"name": "Ibellab Oasis",
+		"links": [],
+		"day": "Sunday",
+		"area": "The Great Desert",
+		"level": 3,
+		"region": "Valencia"
+	},
+	"Desert Naga Temple": {
+		"name": "Desert Naga Temple",
+		"links": [],
+		"day": "Tuesday",
+		"area": "The Great Desert",
+		"level": 1,
+		"region": "Valencia"
+	},
+	"Pilgrim's Sanctum": {
+		"name": "Pilgrim's Sanctum",
+		"links": [],
+		"day": "Thursday",
+		"area": "The Great Desert",
+		"level": 1,
+		"region": "Valencia"
+	},
+	"Grieving Grave": {
+		"name": "Grieving Grave",
+		"links": [],
+		"day": "Friday",
+		"area": "The Great Desert",
+		"level": 1,
+		"region": "Valencia"
+	},
+	"Ancado Coast": {
+		"name": "Ancado Coast",
+		"links": [],
+		"day": "Sunday",
+		"area": "Valencia North",
+		"level": 3,
+		"region": "Valencia"
+	},
+	"Altas Farmland": {
+		"name": "Altas Farmland",
+		"links": [],
+		"day": "Tuesday",
+		"area": "Valencia North",
+		"level": 1,
+		"region": "Valencia"
+	},
+	"Pilgrim's Sanctum - Obedience": {
+		"name": "Pilgrim's Sanctum - Obedience",
+		"links": [],
+		"day": "Wednesday",
+		"area": "Valencia North",
+		"level": 1,
+		"region": "Valencia"
+	},
+	"Rakshan Observatory": {
+		"name": "Rakshan Observatory",
+		"links": [],
+		"day": "Friday",
+		"area": "Valencia North",
+		"level": 1,
+		"region": "Valencia"
+	},
+	"Pilgrim's Sanctum - Fasting": {
+		"name": "Pilgrim's Sanctum - Fasting",
+		"links": [],
+		"day": "Sunday",
+		"area": "Valencia Center",
+		"level": 1,
+		"region": "Valencia"
+	},
+	"Valencia Castle Site": {
+		"name": "Valencia Castle Site",
+		"links": [],
+		"day": "Monday",
+		"area": "Valencia Center",
+		"level": 3,
+		"region": "Valencia"
+	},
+	"Valencia Plantation": {
+		"name": "Valencia Plantation",
+		"links": [],
+		"day": "Wednesday",
+		"area": "Valencia Center I",
+		"level": 1,
+		"region": "Valencia"
+	},
+	"Erdal Farm": {
+		"name": "Erdal Farm",
+		"links": [],
+		"day": "Thursday",
+		"area": "Valencia Center",
+		"level": 1,
+		"region": "Valencia"
+	},
+	"Fohalam Farm": {
+		"name": "Fohalam Farm",
+		"links": [],
+		"day": "Friday",
+		"area": "Valencia Center",
+		"level": 1,
+		"region": "Valencia"
+	},
+	"Crescent Shrine": {
+		"name": "Crescent Shrine",
+		"links": [],
+		"day": "Sunday",
+		"area": "Southern Valencia",
+		"level": 2,
+		"region": "Valencia"
+	},
+	"Western Plateau of Valencia": {
+		"name": "Western Plateau of Valencia",
+		"links": [],
+		"day": "Monday",
+		"area": "Southern Valencia",
+		"level": 1,
+		"region": "Valencia"
+	},
+	"Crescent Mountains": {
+		"name": "Crescent Mountains",
+		"links": [],
+		"day": "Tuesday",
+		"area": "Southern Valencia",
+		"level": 2,
+		"region": "Valencia"
+	},
+	"Aakman": {
+		"name": "Aakman",
+		"links": [],
+		"day": "Wednesday",
+		"area": "Southern Valencia",
+		"level": 2,
+		"region": "Valencia"
+	},
+	"Pilgrim's Sanctum - Sincerity": {
+		"name": "Pilgrim's Sanctum - Sincerity",
+		"links": [],
+		"day": "Thursday",
+		"area": "Southern Valencia",
+		"level": 1,
+		"region": "Valencia"
+	},
+	"Pilgrim's Sanctum - Humility": {
+		"name": "Pilgrim's Sanctum - Humility",
+		"links": [],
+		"day": "Friday",
+		"area": "Southern Valencia",
+		"level": 1,
+		"region": "Valencia"
+	},
+	"Gavinya Volcano Zone": {
+		"name": "Gavinya Volcano Zone",
+		"links": [],
+		"day": "Sunday",
+		"area": "Valencia Outskirts",
+		"level": 2,
+		"region": "Valencia"
+	},
+	"Ivory Wasteland": {
+		"name": "Ivory Wasteland",
+		"links": [],
+		"day": "Monday",
+		"area": "Valencia Outskirts",
+		"level": 2,
+		"region": "Valencia"
+	},
+	"Gavinya Great Crater": {
+		"name": "Gavinya Great Crater",
+		"links": [],
+		"day": "Tuesday",
+		"area": "Valencia Outskirts",
+		"level": 1,
+		"region": "Valencia"
+	},
+	"Roud Sulfur Works": {
+		"name": "Roud Sulfur Works",
+		"links": [],
+		"day": "Wednesday",
+		"area": "Valencia Outskirts",
+		"level": 2,
+		"region": "Valencia"
+	},
+	"Ivero-Cliff": {
+		"name": "Ivero-Cliff",
+		"links": [],
+		"day": "Thursday",
+		"area": "Valencia Outskirts",
+		"level": 1,
+		"region": "Valencia"
+	},
+	"Gavinya Coast Cliff": {
+		"name": "Gavinya Coast Cliff",
+		"links": [],
+		"day": "Friday",
+		"area": "Valencia Outskirts",
+		"level": 1,
+		"region": "Valencia"
+	}
+}

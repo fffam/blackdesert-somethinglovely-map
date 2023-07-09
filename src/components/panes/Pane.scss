@@ -1,0 +1,79 @@
+@import "../../common";
+
+.pane {
+
+	display: flex;
+	min-height: 100vh;
+	max-height: 100vh;
+	flex-direction: column;
+
+	z-index: 5000;
+	width: $menu-padding*3.5;
+	transition: width 0.3s cubic-bezier(0.075, 0.820, 0.165, 1.000); // easeOutCirc
+
+	background: #F0F0F0;
+	box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5);
+
+	&:hover {
+		width: $menu-padding*4;
+	}
+
+	z-index: 4999;
+
+	&.pane--is-active {
+		z-index: 5010;
+		width: $pane-width;
+		background: #FFF;
+		&:hover {
+			width: $pane-width;
+		}
+	}
+
+	& .pane--wrapper {
+		width: $pane-width;
+		display: flex;
+		min-height: 100vh;
+		max-height: 100vh;
+		flex-direction: column;
+	}
+
+	& .pane--header {
+		overflow: hidden;
+		flex: 0 0 auto;
+
+		.close {
+			font-size: 2rem;
+			font-weight: normal;
+			float: right;
+			opacity: 0.8;
+			cursor: pointer;
+
+			&:hover {
+				opacity: 1;
+			}
+		}
+	}
+	& .pane--body {
+		flex: 1;
+		overflow-x: hidden;
+		overflow-y: auto;
+
+		& > .unreleased {
+			padding: $menu-padding;
+			margin: 0.5rem;
+			background: #FFBEB3;
+			b {
+				color: $color-red-700;
+			}
+		}
+	}
+	& .pane--footer {
+		flex: 0 0;
+	}
+
+
+
+	.toolbar {
+		padding: 0 $menu-padding $menu-padding $menu-padding;
+	}
+}

@@ -1,0 +1,9 @@
+.skill-level {
+//	&.skill-level-beginner {}
+	&.skill-level-apprentice { color: #689F38; }
+	&.skill-level-skilled { color: #1976D2; }
+	&.skill-level-professional { color: #FFA000; }
+	&.skill-level-artisan { color: #D32F2F; }
+	&.skill-level-master { color: #7B1FA2; }
+	&.skill-level-guru { color: #E91E63; }
+}

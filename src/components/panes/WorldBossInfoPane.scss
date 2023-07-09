@@ -1,0 +1,53 @@
+@import "../../common";
+@import "./Pane";
+
+.worldboss-info-pane {
+	.pane--header {
+		background-color: #ff0036;
+	}
+
+	.section-image {
+		img {
+			width: 100%;
+		}
+	}
+
+	.feature-list {
+		margin: $menu-padding 0;
+		padding: 0;
+
+		li {
+			display: flex;
+			align-items: center;
+			align-content:stretch;
+			cursor: pointer;
+
+			padding: 0.2rem $menu-padding;
+
+			span {
+				opacity: 0.8;
+			}
+
+			&:hover {
+				background: transparentize($color-divider, 0.1);
+				span {
+					opacity: 1;
+				}
+			}
+
+			&.feature-list--current {
+				background: $color-divider;
+			}
+
+			span.icon {
+				flex: 0;
+				margin-right: 0.2rem;
+			}
+			span.name {
+				flex-grow: 1;
+				flex-shrink: 1;
+				flex-basis: 60%;
+			}
+		}
+	}
+}

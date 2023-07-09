@@ -1,0 +1,18 @@
+@import "../../common";
+@import "./Pane";
+
+.villa-info-pane {
+	.pane--header {
+		background-color: #08d7b2;
+	}
+
+	.section-image {
+		img {
+			width: 100%;
+		}
+	}
+
+	.notes {
+		margin-top: 1rem;
+	}
+}

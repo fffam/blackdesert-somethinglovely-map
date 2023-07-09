@@ -1,0 +1,219 @@
+@import "../../common";
+
+#filters-unit {
+
+	padding: 0;
+	margin: 0;
+
+	// Condensed font for elephants filter so it fits
+	span.el {
+		font-family: "Roboto Condensed";
+	}
+
+	// Main Heading
+	h1 {
+		display: none;
+		margin: 0;
+		padding: $menu-padding;
+		font-size: 1rem;
+		background: $color-primary-700;
+		border-bottom: 4px solid $color-red-900;
+		color: $color-text-on-primary;
+	}
+
+	// Filter section headings
+	h2 {
+		margin: 0 1rem;
+		padding: 0;
+
+		span {
+			font-size: 1rem;
+			color: $color-text-3;
+			background: #FFF;
+			margin: 0;
+			padding: 0 0.5rem 0 0;
+		}
+
+		&::after {
+			content: " ";
+			border-top: 1px solid $color-divider;
+			width: 95%;
+			display: block;
+			height: 1px;
+			overflow: hidden;
+			margin-top: -0.75rem;
+		}
+	}
+
+	input {
+		transform: translateY(2px);
+	}
+
+	.section-nodes, .section-trading, .section-fishing {
+		h3 {
+			display: none;
+		}
+	}
+
+	.checkbox-group {
+
+		&.section-gathering {
+			&:last-child {
+				margin-bottom: $menu-padding;
+			}
+
+			&.open {
+				&:last-child {
+					margin-bottom: 0;
+					ul {
+						margin-bottom: 0;
+					}
+				}
+			}
+		}
+
+		ul {
+			margin: 0;
+			padding: 0 $menu-padding;
+			display: block;
+			list-style: none;
+
+			max-height: none;
+			overflow: hidden;
+			li:first-child { margin-top: $menu-padding; }
+			li:last-child { margin-bottom: $menu-padding; }
+		}
+		li {
+			font-size: 0.9rem;
+		}
+	}
+
+	.section-nodes {
+		h2 {
+			display: none;
+		}
+		// For the top 2 checkboxes (nodes and resource nodes),
+		//
+		.checkbox-group {
+			padding-top: $menu-padding;
+
+			&.main-filters {
+				li {
+					float: left;
+					width: 50%;
+					display: block;
+					margin-top: 0;
+				}
+				li:nth-child(2n+1) {
+					clear: left;
+				}
+				li:nth-child(1),li:nth-child(2) {
+					width: auto;
+					float: none;
+				}
+				li:nth-child(2) {
+					padding-left: 0.5rem;
+					padding-bottom: 1rem;
+					margin-bottom: 1rem;
+					border-bottom: 1px solid $color-divider;
+				}
+			}
+		}
+	}
+
+	.section-custom {
+		ul {
+			margin-top: -1em;
+		}
+	}
+
+	.section-gathering {
+
+		h2 {
+			border-top: 1px solid $color-divider;
+			padding-top: 0.5rem;
+
+			&::after {
+				display: none;
+			}
+		}
+
+		b.cancel {
+			float: right;
+			margin-right: 0.5rem;
+			font-size: 1.5rem;
+			line-height: 1em;
+			color: $color-text-4;
+			cursor: pointer;
+
+			&:hover {
+				color: $color-text-2;
+			}
+		}
+
+		.ui-button {
+			margin: 0 $menu-padding;
+		}
+		.ui-button.ui-button--negative {
+			border: 1px solid $color-divider;
+			border-bottom-left-radius: 0;
+			border-bottom-right-radius: 0;
+			border-bottom: none;
+			background: #FFF;
+			color: $color-text;
+		}
+
+		.gatheringfilters {
+			margin: -1px $menu-padding $menu-padding;
+			border: 1px solid $color-divider;
+			border-radius: 0 4px 4px 4px;
+			padding-top: $menu-padding/2;
+			padding-bottom: $menu-padding/2;
+		}
+
+		.checkbox-group {
+
+			h3 {
+				position: relative;
+				margin: 0 $menu-padding 2px;
+				font-size: 0.9rem;
+				padding-left: 0.8rem;
+				cursor: pointer;
+
+				&::before {
+					content: "▶";
+					font-size: 0.6rem;
+					color: $color-text-2;
+					margin-right: 4px;
+					position: absolute;
+					top: 3px;
+					left: 0;
+				}
+			}
+
+			ul {
+				background: $color-grey-100;
+				height: 0;
+				margin-bottom: 0;
+				list-style: none;
+				li {
+					list-style: none;
+				}
+			}
+
+			// When the group is toggled open
+			&.open {
+				h3 {
+					&::before {
+						transform: rotate(90deg);
+					}
+				}
+				ul {
+					height: auto;
+					margin-bottom: $menu-padding/2;
+				}
+			}
+		}
+	}
+
+}

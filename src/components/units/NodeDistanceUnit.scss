@@ -1,0 +1,98 @@
+@import "../../common";
+
+.node-distance-unit {
+
+	fieldset {
+		padding: $menu-padding;
+		margin: $menu-padding;
+		-webkit-padding-start: inherit;
+		-webkit-padding-after: inherit;
+		-webkit-padding-before: inherit;
+		-webkit-padding-end: inherit;
+		display: block;
+		min-width: auto;
+		border: none;
+		max-width: 100%;
+	}
+
+	select {
+		max-width:100%;
+	}
+
+	p {
+		padding: $menu-padding;
+		background: $color-grey-100;
+		color: $color-text-2;
+		strong {
+			display: inline-block;
+			border: 2px solid black;
+			border-radius: 40px;
+			padding: 0.1rem 0.4rem;
+			color: black;
+			background: white;
+		}
+	}
+
+	ul {
+		margin: 0 0 $menu-padding $menu-padding*2;
+		padding: 0;
+		border-left: 3px solid black;
+		position: relative;
+
+		li {
+			display: flex;
+			align-items: flex-start;
+			align-content:stretch;
+			cursor: pointer;
+			padding: 0.2rem $menu-padding;
+
+			&:first-child {
+				top: -5px;
+				position: relative;
+				margin-bottom: -5px;
+				font-weight: bold;
+			}
+			&:last-child {
+				bottom: -5px;
+				position: relative;
+				margin-top: -5px;
+				font-weight: bold;
+			}
+			&:hover {
+				span.name {
+					color: $color-text;
+				}
+			}
+		}
+
+		b.contrib {
+			display: inline-block;
+			border: 2px solid black;
+			border-radius: 40px;
+			padding: 0.1rem 0.4rem;
+			color: black;
+			font-size: 0.9rem;
+			vertical-align: bottom;
+			margin-right: 0.2rem;
+			background: white;
+			margin-left: -2rem;
+			text-align: center
+		}
+		i.icon {
+			flex: 0 0 16px;
+			margin-right: 0.2rem;
+			margin-left: 0.2rem;
+		}
+		span.name {
+			flex-grow: 1;
+			flex-shrink: 1;
+			flex-basis: 60%;
+			color: $color-text-2;
+		}
+		em.unreleased {
+			display: block;
+			color: $color-red-900;
+			opacity: 0.6;
+		}
+	}
+}

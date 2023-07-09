@@ -1,0 +1,37 @@
+@import "../../common";
+@import "./Pane";
+
+.fishinghotspot-info-pane {
+	.pane--header {
+		background-color: #03A9F4;
+
+		.detail-intro-unit {
+			img {
+				width: 16px;
+				float: left;
+				margin: 7px;
+			}
+		}
+	}
+
+	.section-image {
+		img {
+			width: 100%;
+		}
+	}
+
+	.details {
+		align-items: center;
+		dt {
+			flex: 1 0 45%;
+			margin: 0.25rem 0;
+		}
+		dd {
+			flex: 1 0 55%;
+		}
+	}
+
+	#feature-attribution-unit {
+		padding: $menu-padding $menu-padding 0;
+	}
+}

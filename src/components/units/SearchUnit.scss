@@ -1,0 +1,173 @@
+@import "../../common";
+@import "../../MapIcons";
+
+#search-unit {
+	background: #FFF;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.4);
+
+	padding: 0;
+	margin: 0;
+	z-index: 40000;
+
+	position: absolute;
+	margin-top: $menu-padding * -1;
+	left: $menu-padding;
+	right: $menu-padding;
+
+	.searchfield {
+		position: relative;
+		display: block;
+		border-bottom: 1px solid $color-divider;
+
+		input {
+			padding: 0.5rem 1rem;
+			font-size: 1.25rem;
+			display: flex;
+			flex-grow: 1;
+			background: none;
+			width: 100%;
+		}
+		.search-hint {
+			color: $color-text-3;
+			border: 1px solid #FFF;
+		}
+		.search-field {
+			position: absolute;
+			top: 0;
+			border: 1px solid #FFF;
+			outline-width: 0;
+			&:focus { outline-width: 0; }
+		}
+
+		.cancel {
+			position: absolute;
+			right: 0.5rem;
+			top: 0;
+			z-index: 40000;
+			font-size: 2rem;
+			cursor: pointer;
+		}
+
+		&.has-item {
+			input {
+				padding-left: 2.6rem;
+			}
+		}
+
+		.icon {
+			width: 22px;
+			height: 22px;
+			border: 1px solid #333;
+			background: #333;
+
+			position: absolute;
+			top: 5px;
+			left: 5px;
+		}
+		span.icon {
+			@include map-icon-city();
+		}
+	}
+
+	ul {
+		background: $color-grey-200;
+
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		max-height: 27rem;
+		overflow-y: auto;
+
+		li {
+			list-style: none;
+			margin: 0;
+			padding: $menu-padding/2 $menu-padding;
+			border-bottom: 1px solid $color-divider;
+
+			display: flex;
+			flex-direction: row;
+			flex-wrap: nowrap;
+			justify-content: flex-start;
+			align-content: stretch;
+			align-items: flex-start;
+
+			cursor: pointer;
+
+			&:hover {
+				background-color: $color-grey-200;
+			}
+
+			&.selected {
+				background-color: #B3E5FC;
+			}
+
+			& > .icon-holder {
+				width: 22px;
+				height: 22px;
+
+				order: 0;
+				flex: 0 1 auto;
+				align-self: auto;
+				margin-top: 4px;
+				text-align: center;
+
+				img {
+					width: 22px;
+					height: 22px;
+				}
+
+				img.icon-fishinghotspots {
+					width: 16px;
+					height: auto;
+					margin-top: 2px;
+				}
+			}
+			& > img.icon {
+				border: 1px solid #333;
+				background: #333;
+			}
+			& > span.icon {
+				@include map-icon-city();
+				background-size: contain;
+				background-repeat: no-repeat;
+				background-position: center center;
+			}
+
+			&>div {
+				padding-left: $menu-padding;
+				display: block;
+				order: 0;
+				flex: 1 1 auto;
+				align-self: auto;
+				justify-content: flex-between;
+
+				font-size: 0.9rem;
+			}
+
+			& >div> h4 {
+				margin: 0;
+				padding: 0;
+			}
+
+			& >div> span {
+				display: block;
+				color: $color-text-3;
+			}
+
+			// Icons
+			& >div i.icon {
+				position: relative;
+				top: 4px;
+				margin-right: 4px;
+			}
+
+			&.type-tradepack >div> span:first-of-type {
+				color: $color-text;
+				i {
+					color: $color-text-4;
+				}
+			}
+
+		}
+	}
+}
